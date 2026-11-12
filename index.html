@@ -47,45 +47,71 @@
     <!-- HERO SECTION -->
     <section id="home" class="min-h-[85vh] flex items-center px-8 md:px-16 py-20">
 
-        <div class="max-w-4xl">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-16">
 
-            <p class="text-orange-500 uppercase tracking-[0.3em] text-sm font-semibold mb-6">
-                Aspiring Software Developer
-            </p>
+            <!-- LEFT: INTRODUCTION -->
+            <div>
 
-            <h1 class="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight">
-                Building
-                <span class="text-orange-500">Digital</span>
-                Experiences.
-            </h1>
+                <p class="text-orange-500 uppercase tracking-[0.3em] text-sm font-semibold mb-6">
+                    Aspiring Software Developer
+                </p>
 
-            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mt-8 leading-relaxed">
-                Hello, I'm Elman Touhid. A passionate developer exploring
-                the world of programming, technology and creative solutions.
-            </p>
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
+                    Building
+                    <span class="text-orange-500">Digital</span>
+                    Experiences.
+                </h1>
 
-            <div class="flex flex-wrap gap-4 mt-10">
+                <p class="text-gray-400 text-lg md:text-xl mt-8 leading-relaxed">
+                    Hello, I'm Elman Touhid. A passionate developer exploring
+                    the world of programming, technology and creative solutions.
+                </p>
 
-                <a href="#projects"
-                   class="bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-full font-semibold transition">
-                    View My Work →
-                </a>
+                <div class="flex flex-wrap gap-4 mt-10">
 
-                <a href="#contact"
-                   class="border border-white/20 hover:border-orange-500 px-8 py-4 rounded-full font-semibold transition">
-                    Contact Me
-                </a>
+                    <a href="#projects"
+                       class="bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-full font-semibold transition">
+                        View My Work →
+                    </a>
+
+                    <a href="#contact"
+                       class="border border-white/20 hover:border-orange-500 px-8 py-4 rounded-full font-semibold transition">
+                        Contact Me
+                    </a>
+
+                </div>
+
+                <div class="mt-12 flex items-center gap-3 text-gray-500 text-sm">
+                    <span class="w-2 h-2 bg-orange-500 rounded-full"></span>
+                    Available for learning and collaboration
+                </div>
 
             </div>
 
-            <div class="mt-16 flex items-center gap-3 text-gray-500 text-sm">
-                <span class="w-2 h-2 bg-orange-500 rounded-full"></span>
-                Available for learning and collaboration
+
+            <!-- RIGHT: PROFILE PHOTO -->
+            <div class="flex justify-center md:justify-end">
+
+                <div class="relative w-full max-w-[380px]">
+
+                    <!-- Orange Frame -->
+                    <div class="absolute -inset-2 rounded-3xl border border-orange-500/40"></div>
+
+                    <!-- Profile Image -->
+                    <img
+                        src="assets/profile.png"
+                        alt="Portrait of Elman Touhid"
+                        class="relative w-full h-[480px] md:h-[560px] object-cover object-center rounded-3xl border border-white/10"
+                    >
+
+                </div>
+
             </div>
 
         </div>
 
     </section>
+
 
     <!-- JavaScript -->
     <script src="script.js"></script>
