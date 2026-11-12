@@ -12,10 +12,73 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: #0c0c0c;
     color: #ffffff;
+    overflow-x: hidden;
 }
 
 /* TEXT SELECTION */
 ::selection {
     background-color: #f97316;
     color: #ffffff;
+}
+
+/* HERO ANIMATIONS */
+#home .max-w-7xl > div:first-child {
+    animation: slideInLeft 1s ease forwards;
+}
+
+#home .max-w-7xl > div:last-child {
+    animation: slideInRight 1s ease forwards;
+}
+
+/* PROFILE IMAGE EFFECT */
+#home img {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 0 35px rgba(249, 115, 22, 0.08);
+}
+
+#home img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 45px rgba(249, 115, 22, 0.25);
+}
+
+/* ORANGE FRAME */
+#home img + * {
+    transition: all 0.5s ease;
+}
+
+/* ENTRANCE ANIMATIONS */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* REDUCE MOTION FOR ACCESSIBILITY */
+@media (prefers-reduced-motion: reduce) {
+    #home .max-w-7xl > div:first-child,
+    #home .max-w-7xl > div:last-child {
+        animation: none;
+    }
+
+    #home img {
+        transition: none;
+    }
 }
