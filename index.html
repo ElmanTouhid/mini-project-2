@@ -1,9 +1,11 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Elman Touhid | Developer Portfolio</title>
 
     <!-- Tailwind CSS -->
@@ -20,76 +22,73 @@
 
 <body class="bg-[#0c0c0c] text-white">
 
-    <h1 class="text-4xl font-bold text-orange-500 text-center mt-20">
-        Welcome to My Portfolio
-    </h1>
+    <!-- NAVBAR -->
+    <nav class="flex items-center justify-between px-8 md:px-16 py-6 border-b border-white/10">
 
+        <a href="#home" class="text-2xl font-extrabold tracking-tight">
+            ELMAN<span class="text-orange-500">.</span>
+        </a>
+
+        <div class="hidden md:flex items-center gap-10 text-sm text-gray-300">
+            <a href="#home" class="hover:text-orange-500 transition">Home</a>
+            <a href="#about" class="hover:text-orange-500 transition">About</a>
+            <a href="#skills" class="hover:text-orange-500 transition">Skills</a>
+            <a href="#projects" class="hover:text-orange-500 transition">Projects</a>
+        </div>
+
+        <a href="#contact"
+           class="bg-orange-500 hover:bg-orange-600 px-5 py-3 rounded-full text-sm font-semibold transition">
+            Let's Talk
+        </a>
+
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section id="home" class="min-h-[85vh] flex items-center px-8 md:px-16 py-20">
+
+        <div class="max-w-4xl">
+
+            <p class="text-orange-500 uppercase tracking-[0.3em] text-sm font-semibold mb-6">
+                Aspiring Software Developer
+            </p>
+
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight">
+                Building
+                <span class="text-orange-500">Digital</span>
+                Experiences.
+            </h1>
+
+            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mt-8 leading-relaxed">
+                Hello, I'm Elman Touhid. A passionate developer exploring
+                the world of programming, technology and creative solutions.
+            </p>
+
+            <div class="flex flex-wrap gap-4 mt-10">
+
+                <a href="#projects"
+                   class="bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-full font-semibold transition">
+                    View My Work →
+                </a>
+
+                <a href="#contact"
+                   class="border border-white/20 hover:border-orange-500 px-8 py-4 rounded-full font-semibold transition">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="mt-16 flex items-center gap-3 text-gray-500 text-sm">
+                <span class="w-2 h-2 bg-orange-500 rounded-full"></span>
+                Available for learning and collaboration
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
+
 </body>
 </html>
-
-
-<!-- NAVBAR -->
-<nav class="flex items-center justify-between px-8 md:px-16 py-6 border-b border-white/10">
-
-    <a href="#" class="text-2xl font-extrabold tracking-tight">
-        ELMAN<span class="text-orange-500">.</span>
-    </a>
-
-    <div class="hidden md:flex items-center gap-10 text-sm text-gray-300">
-        <a href="#home" class="hover:text-orange-500 transition">Home</a>
-        <a href="#about" class="hover:text-orange-500 transition">About</a>
-        <a href="#skills" class="hover:text-orange-500 transition">Skills</a>
-        <a href="#projects" class="hover:text-orange-500 transition">Projects</a>
-    </div>
-
-    <a href="#contact"
-       class="bg-orange-500 hover:bg-orange-600 px-5 py-3 rounded-full text-sm font-semibold transition">
-        Let's Talk
-    </a>
-
-</nav>
-
-
-<!-- HERO SECTION -->
-<section id="home" class="min-h-[85vh] flex items-center px-8 md:px-16 py-20">
-
-    <div class="max-w-4xl">
-
-        <p class="text-orange-500 uppercase tracking-[0.3em] text-sm font-semibold mb-6">
-            Aspiring Software Developer
-        </p>
-
-        <h1 class="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight">
-            Building
-            <span class="text-orange-500">Digital</span>
-            Experiences.
-        </h1>
-
-        <p class="text-gray-400 text-lg md:text-xl max-w-2xl mt-8 leading-relaxed">
-            Hello, I'm Elman Touhid. A passionate developer exploring
-            the world of programming, technology and creative solutions.
-        </p>
-
-        <div class="flex flex-wrap gap-4 mt-10">
-
-            <a href="#projects"
-               class="bg-orange-500 hover:bg-orange-600 px-8 py-4 rounded-full font-semibold transition">
-                View My Work →
-            </a>
-
-            <a href="#contact"
-               class="border border-white/20 hover:border-orange-500 px-8 py-4 rounded-full font-semibold transition">
-                Contact Me
-            </a>
-
-        </div>
-
-        <div class="mt-16 flex items-center gap-3 text-gray-500 text-sm">
-            <span class="w-2 h-2 bg-orange-500 rounded-full"></span>
-            Available for learning and collaboration
-        </div>
-
-    </div>
-
-</section>
