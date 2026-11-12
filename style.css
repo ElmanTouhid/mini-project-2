@@ -41,10 +41,7 @@ body {
     box-shadow: 0 0 45px rgba(249, 115, 22, 0.25);
 }
 
-/* ORANGE FRAME */
-#home img + * {
-    transition: all 0.5s ease;
-}
+
 
 /* ENTRANCE ANIMATIONS */
 @keyframes slideInLeft {
