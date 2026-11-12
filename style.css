@@ -1,19 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
+
+/* GLOBAL SETTINGS */
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
-   font-family: 'Plus Jakarta Sans', sans-serif;
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: #0c0c0c;
     color: #ffffff;
 }
-::selection{
+
+/* TEXT SELECTION */
+::selection {
     background-color: #f97316;
     color: #ffffff;
 }
