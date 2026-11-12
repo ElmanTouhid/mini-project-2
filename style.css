@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans' sans-serif;
+    background-color: #0c0c0c;
+    color: #ffffff;
+}
+::selection{
+    background-color: #f97316;
+    color: #ffffff;
+}
