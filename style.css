@@ -79,3 +79,23 @@ body {
         transition: none;
     }
 }
+/* MOBILE NAVIGATION */
+nav {
+    position: relative;
+}
+
+#mobile-menu {
+    animation: menuSlide 0.25s ease;
+}
+
+@keyframes menuSlide {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
