@@ -104,7 +104,7 @@ The portfolio contains the following main sections:
 Computer Science Student
 
 - GitHub: [@ElmanTouhid](https://github.com/ElmanTouhid)
-- Portfolio: https://www.elmantouhid.me/
+- Portfolio: https://elmantouhid.me/
 
 ---
 
