@@ -104,7 +104,7 @@ The portfolio contains the following main sections:
 Computer Science Student
 
 - GitHub: [@ElmanTouhid](https://github.com/ElmanTouhid)
-- Portfolio: [personal-portfolio-phi-three-92.vercel.app](https://personal-portfolio-phi-three-92.vercel.app/)
+- Portfolio: https://www.elmantouhid.me/
 
 ---
 
